@@ -7,6 +7,8 @@
 - Face Detection Algoritm : haarcascade.xml
 ## Model architecture
 
+We used FER2013 dataset [https://www.kaggle.com/msambare/fer2013] for face emotion recognition which contains 7 emotions
+
 It is a sequential model with multiple convolutions, after each one we use normalization to reduce biases, at the end we have a layer with 7 neurons each for a specific emotion (softmax was used)
 
 Optimizer used: Adam (we could use RMSprop or make a specific one[see links])
